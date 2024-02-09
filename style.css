@@ -1,0 +1,33 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital@0;1&display=swap');
+:root{
+    --cor-fundo: #1E1E1E;
+    --verde: #6fff57;
+    --branco: #FFFFFF;
+    --botao-ativo: #3A375E;
+    --botao-inativo: rgba(58, 55, 94, 0.5);
+    --texto-fundo: rgba(58, 55, 94, 0.3);
+}
+
+body{
+    background-color: var(--cor-fundo);
+    color: var(--branco);
+    font-family: 'Source Code Pro', monospace;
+}
+
+.C-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.T-principal{
+    text-align: left;
+    width: 100%;
+    font-size: 32px;
+}
+
