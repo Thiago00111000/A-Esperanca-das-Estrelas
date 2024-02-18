@@ -1,4 +1,15 @@
 <!DOCTYPE html>
+<!--O seu futuro ainda não está traçado, é você que o define!-->
+<!--
+    <button class="botao">Escuro</button>
+    .fundo-preto{
+  background: black;
+  color: white;
+}
+.botao{
+  padding: 2em; 
+}
+-->
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
@@ -11,29 +22,108 @@
 </head>
 <body>
     <section class="C-principal">
-        <h2 class="T-principal">O seu futuro ainda não está traçado, é você que o define!<span>_</span></h2>
+        <h2 class="T-principal">Tempo Estimado<span class="blink">_</span></h2>
+        <div class="conteudo">
         <div class="botoes">
             <button class="botao ativo">Próximo Ano</button>
-            <button class="botao">Homem em Marte</button>
-            <button class="botao">Fim do Mundo</button>
-            <button class="botao">Portal 3</button>
+            <button class="botao">Próxima Década</button>
+            <button class="botao">Próximo Milênio</button>
+            <button class="botao">Cérebro de Boltzmann</button>
         </div>
         <div class="abas-Textos">
-            <div class="aba-Conteudos">
+            <div class="aba-Conteudos ativo">
                 <h3 class="aba-conteudo-titulo-principal">Próximo Ano</h3>
-                <h4 class="aba-conteudo-titulo-secundario">Tempo estimado até 2025</h4>
+                <h4 class="aba-conteudo-titulo-secundario">Tempo estimado até o começo do próximo ano</h4>
+                <div class="contador">
+                    <div class="contador-digito">
+                        <p class="contador-digito-numero" id="dias0">7</p>
+                        <p class="contador-digito-texto">dias</p>
+                    </div>
+                    <div class="contador-digito">
+                        <p class="contador-digito-numero" id="horas0">7</p>
+                        <p class="contador-digito-texto">horas</p>
+                    </div>
+                    <div class="contador-digito">
+                        <p class="contador-digito-numero" id="minutos0">7</p>
+                        <p class="contador-digito-texto">minutos</p>
+                    </div>
+                    <div class="contador-digito">
+                        <p class="contador-digito-numero" id="segundos0">7</p>
+                        <p class="contador-digito-texto">segundos</p>
+                    </div>
+                </div>
             </div>
             <div class="aba-Conteudos">
-                <h3 class="aba-conteudo-titulo-principal">Homem em Marte</h3>
-                <h4 class="aba-conteudo-titulo-secundario">Tempo estimado até a chegada do homem em Marte</h4>
-            </div><div class="aba-Conteudos">
-                <h3 class="aba-conteudo-titulo-principal">Próximo Ano</h3>
-                <h4 class="aba-conteudo-titulo-secundario">Tempo estimado até 2025</h4>
-            </div><div class="aba-Conteudos">
-                <h3 class="aba-conteudo-titulo-principal">Próximo Ano</h3>
-                <h4 class="aba-conteudo-titulo-secundario">Tempo estimado até 2025</h4>
+                <h3 class="aba-conteudo-titulo-principal">Próxima Década</h3>
+                <h4 class="aba-conteudo-titulo-secundario">Tempo estimado até o começo da próxima década</h4>
+                <div class="contador">
+                    <div class="contador-digito">
+                        <p class="contador-digito-numero" id="dias1">7</p>
+                        <p class="contador-digito-texto">dias</p>
+                    </div>
+                    <div class="contador-digito">
+                        <p class="contador-digito-numero" id="horas1">7</p>
+                        <p class="contador-digito-texto">horas</p>
+                    </div>
+                    <div class="contador-digito">
+                        <p class="contador-digito-numero" id="minutos1">7</p>
+                        <p class="contador-digito-texto">minutos</p>
+                    </div>
+                    <div class="contador-digito">
+                        <p class="contador-digito-numero" id="segundos1">7</p>
+                        <p class="contador-digito-texto">segundos</p>
+                    </div>
+                </div>
+            </div>
+            <div class="aba-Conteudos">
+                <h3 class="aba-conteudo-titulo-principal">Próximo Milênio</h3>
+                <h4 class="aba-conteudo-titulo-secundario">Tempo estimado até o começo do próximo milênio</h4>
+                <div class="contador">
+                    <div class="contador-digito">
+                        <p class="contador-digito-numero" id="dias2">7</p>
+                        <p class="contador-digito-texto">dias</p>
+                    </div>
+                    <div class="contador-digito">
+                        <p class="contador-digito-numero" id="horas2">7</p>
+                        <p class="contador-digito-texto">horas</p>
+                    </div>
+                    <div class="contador-digito">
+                        <p class="contador-digito-numero" id="minutos2">7</p>
+                        <p class="contador-digito-texto">minutos</p>
+                    </div>
+                    <div class="contador-digito">
+                        <p class="contador-digito-numero" id="segundos2">7</p>
+                        <p class="contador-digito-texto">segundos</p>
+                    </div>
+                </div>
+            </div>
+            <div class="aba-Conteudos">
+                <h3 class="aba-conteudo-titulo-principal">Cérebro de Boltzmann</h3>
+                <h4 class="aba-conteudo-titulo-secundario">É irracional medir isto<span class="blink">_</span></h4>
+                <div class="contador">
+                    <div class="contador-digito">
+                        <p class="contador-digito-numero" id="dias3">7</p>
+                        <p class="contador-digito-texto">dias</p>
+                    </div>
+                    <div class="contador-digito">
+                        <p class="contador-digito-numero" id="horas3">7</p>
+                        <p class="contador-digito-texto">horas</p>
+                    </div>
+                    <div class="contador-digito">
+                        <p class="contador-digito-numero" id="minutos3">7</p>
+                        <p class="contador-digito-texto">minutos</p>
+                    </div>
+                    <div class="contador-digito">
+                        <p class="contador-digito-numero" id="segundos3">7</p>
+                        <p class="contador-digito-texto">segundos</p>
+                    </div>
+                </div>
             </div>
         </div>
+        </div>
+        <audio controls autoplay>
+            <source src="stal.ogg" type="audio/mpeg">
+        </audio>
     </section>
     <script src="main.js"></script>
 </body>
